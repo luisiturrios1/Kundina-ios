@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA7D3D5A288CAE12006AC4C2 /* KundinaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7D3D59288CAE12006AC4C2 /* KundinaApp.swift */; };
+		AA7D3D5C288CAE12006AC4C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7D3D5B288CAE12006AC4C2 /* ContentView.swift */; };
+		AA7D3D5E288CAE14006AC4C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7D3D5D288CAE14006AC4C2 /* Assets.xcassets */; };
+		AA7D3D61288CAE14006AC4C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7D3D60288CAE14006AC4C2 /* Preview Assets.xcassets */; };
+		AA7D3D63288CAE14006AC4C2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7D3D62288CAE14006AC4C2 /* Persistence.swift */; };
+		AA7D3D66288CAE14006AC4C2 /* Kundina.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA7D3D64288CAE14006AC4C2 /* Kundina.xcdatamodeld */; };
+		AA7D3D70288CAE14006AC4C2 /* KundinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7D3D6F288CAE14006AC4C2 /* KundinaTests.swift */; };
+		AA7D3D7A288CAE14006AC4C2 /* KundinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7D3D79288CAE14006AC4C2 /* KundinaUITests.swift */; };
+		AA7D3D7C288CAE14006AC4C2 /* KundinaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7D3D7B288CAE14006AC4C2 /* KundinaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA7D3D6C288CAE14006AC4C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7D3D4E288CAE12006AC4C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7D3D55288CAE12006AC4C2;
+			remoteInfo = Kundina;
+		};
+		AA7D3D76288CAE14006AC4C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7D3D4E288CAE12006AC4C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7D3D55288CAE12006AC4C2;
+			remoteInfo = Kundina;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA7D3D56288CAE12006AC4C2 /* Kundina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kundina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7D3D59288CAE12006AC4C2 /* KundinaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KundinaApp.swift; sourceTree = "<group>"; };
+		AA7D3D5B288CAE12006AC4C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA7D3D5D288CAE14006AC4C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA7D3D60288CAE14006AC4C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA7D3D62288CAE14006AC4C2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AA7D3D65288CAE14006AC4C2 /* Kundina.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kundina.xcdatamodel; sourceTree = "<group>"; };
+		AA7D3D6B288CAE14006AC4C2 /* KundinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KundinaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7D3D6F288CAE14006AC4C2 /* KundinaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KundinaTests.swift; sourceTree = "<group>"; };
+		AA7D3D75288CAE14006AC4C2 /* KundinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KundinaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7D3D79288CAE14006AC4C2 /* KundinaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KundinaUITests.swift; sourceTree = "<group>"; };
+		AA7D3D7B288CAE14006AC4C2 /* KundinaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KundinaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA7D3D53288CAE12006AC4C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7D3D68288CAE14006AC4C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7D3D72288CAE14006AC4C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA7D3D4D288CAE12006AC4C2 = {
+			isa = PBXGroup;
+			children = (
+				AA7D3D58288CAE12006AC4C2 /* Kundina */,
+				AA7D3D6E288CAE14006AC4C2 /* KundinaTests */,
+				AA7D3D78288CAE14006AC4C2 /* KundinaUITests */,
+				AA7D3D57288CAE12006AC4C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA7D3D57288CAE12006AC4C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA7D3D56288CAE12006AC4C2 /* Kundina.app */,
+				AA7D3D6B288CAE14006AC4C2 /* KundinaTests.xctest */,
+				AA7D3D75288CAE14006AC4C2 /* KundinaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA7D3D58288CAE12006AC4C2 /* Kundina */ = {
+			isa = PBXGroup;
+			children = (
+				AA7D3D59288CAE12006AC4C2 /* KundinaApp.swift */,
+				AA7D3D5B288CAE12006AC4C2 /* ContentView.swift */,
+				AA7D3D5D288CAE14006AC4C2 /* Assets.xcassets */,
+				AA7D3D62288CAE14006AC4C2 /* Persistence.swift */,
+				AA7D3D64288CAE14006AC4C2 /* Kundina.xcdatamodeld */,
+				AA7D3D5F288CAE14006AC4C2 /* Preview Content */,
+			);
+			path = Kundina;
+			sourceTree = "<group>";
+		};
+		AA7D3D5F288CAE14006AC4C2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA7D3D60288CAE14006AC4C2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA7D3D6E288CAE14006AC4C2 /* KundinaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA7D3D6F288CAE14006AC4C2 /* KundinaTests.swift */,
+			);
+			path = KundinaTests;
+			sourceTree = "<group>";
+		};
+		AA7D3D78288CAE14006AC4C2 /* KundinaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA7D3D79288CAE14006AC4C2 /* KundinaUITests.swift */,
+				AA7D3D7B288CAE14006AC4C2 /* KundinaUITestsLaunchTests.swift */,
+			);
+			path = KundinaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA7D3D55288CAE12006AC4C2 /* Kundina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7D3D7F288CAE14006AC4C2 /* Build configuration list for PBXNativeTarget "Kundina" */;
+			buildPhases = (
+				AA7D3D52288CAE12006AC4C2 /* Sources */,
+				AA7D3D53288CAE12006AC4C2 /* Frameworks */,
+				AA7D3D54288CAE12006AC4C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kundina;
+			productName = Kundina;
+			productReference = AA7D3D56288CAE12006AC4C2 /* Kundina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA7D3D6A288CAE14006AC4C2 /* KundinaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7D3D82288CAE14006AC4C2 /* Build configuration list for PBXNativeTarget "KundinaTests" */;
+			buildPhases = (
+				AA7D3D67288CAE14006AC4C2 /* Sources */,
+				AA7D3D68288CAE14006AC4C2 /* Frameworks */,
+				AA7D3D69288CAE14006AC4C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA7D3D6D288CAE14006AC4C2 /* PBXTargetDependency */,
+			);
+			name = KundinaTests;
+			productName = KundinaTests;
+			productReference = AA7D3D6B288CAE14006AC4C2 /* KundinaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA7D3D74288CAE14006AC4C2 /* KundinaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7D3D85288CAE14006AC4C2 /* Build configuration list for PBXNativeTarget "KundinaUITests" */;
+			buildPhases = (
+				AA7D3D71288CAE14006AC4C2 /* Sources */,
+				AA7D3D72288CAE14006AC4C2 /* Frameworks */,
+				AA7D3D73288CAE14006AC4C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA7D3D77288CAE14006AC4C2 /* PBXTargetDependency */,
+			);
+			name = KundinaUITests;
+			productName = KundinaUITests;
+			productReference = AA7D3D75288CAE14006AC4C2 /* KundinaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA7D3D4E288CAE12006AC4C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AA7D3D55288CAE12006AC4C2 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AA7D3D6A288CAE14006AC4C2 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AA7D3D55288CAE12006AC4C2;
+					};
+					AA7D3D74288CAE14006AC4C2 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AA7D3D55288CAE12006AC4C2;
+					};
+				};
+			};
+			buildConfigurationList = AA7D3D51288CAE12006AC4C2 /* Build configuration list for PBXProject "Kundina" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA7D3D4D288CAE12006AC4C2;
+			productRefGroup = AA7D3D57288CAE12006AC4C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA7D3D55288CAE12006AC4C2 /* Kundina */,
+				AA7D3D6A288CAE14006AC4C2 /* KundinaTests */,
+				AA7D3D74288CAE14006AC4C2 /* KundinaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA7D3D54288CAE12006AC4C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7D3D61288CAE14006AC4C2 /* Preview Assets.xcassets in Resources */,
+				AA7D3D5E288CAE14006AC4C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7D3D69288CAE14006AC4C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7D3D73288CAE14006AC4C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA7D3D52288CAE12006AC4C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7D3D63288CAE14006AC4C2 /* Persistence.swift in Sources */,
+				AA7D3D5C288CAE12006AC4C2 /* ContentView.swift in Sources */,
+				AA7D3D66288CAE14006AC4C2 /* Kundina.xcdatamodeld in Sources */,
+				AA7D3D5A288CAE12006AC4C2 /* KundinaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7D3D67288CAE14006AC4C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7D3D70288CAE14006AC4C2 /* KundinaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7D3D71288CAE14006AC4C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7D3D7A288CAE14006AC4C2 /* KundinaUITests.swift in Sources */,
+				AA7D3D7C288CAE14006AC4C2 /* KundinaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA7D3D6D288CAE14006AC4C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7D3D55288CAE12006AC4C2 /* Kundina */;
+			targetProxy = AA7D3D6C288CAE14006AC4C2 /* PBXContainerItemProxy */;
+		};
+		AA7D3D77288CAE14006AC4C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7D3D55288CAE12006AC4C2 /* Kundina */;
+			targetProxy = AA7D3D76288CAE14006AC4C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA7D3D7D288CAE14006AC4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA7D3D7E288CAE14006AC4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA7D3D80288CAE14006AC4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kundina/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koy.Kundina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA7D3D81288CAE14006AC4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kundina/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koy.Kundina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA7D3D83288CAE14006AC4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koy.KundinaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kundina.app/Kundina";
+			};
+			name = Debug;
+		};
+		AA7D3D84288CAE14006AC4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koy.KundinaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kundina.app/Kundina";
+			};
+			name = Release;
+		};
+		AA7D3D86288CAE14006AC4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koy.KundinaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kundina;
+			};
+			name = Debug;
+		};
+		AA7D3D87288CAE14006AC4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koy.KundinaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kundina;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA7D3D51288CAE12006AC4C2 /* Build configuration list for PBXProject "Kundina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7D3D7D288CAE14006AC4C2 /* Debug */,
+				AA7D3D7E288CAE14006AC4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7D3D7F288CAE14006AC4C2 /* Build configuration list for PBXNativeTarget "Kundina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7D3D80288CAE14006AC4C2 /* Debug */,
+				AA7D3D81288CAE14006AC4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7D3D82288CAE14006AC4C2 /* Build configuration list for PBXNativeTarget "KundinaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7D3D83288CAE14006AC4C2 /* Debug */,
+				AA7D3D84288CAE14006AC4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7D3D85288CAE14006AC4C2 /* Build configuration list for PBXNativeTarget "KundinaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7D3D86288CAE14006AC4C2 /* Debug */,
+				AA7D3D87288CAE14006AC4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA7D3D64288CAE14006AC4C2 /* Kundina.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA7D3D65288CAE14006AC4C2 /* Kundina.xcdatamodel */,
+			);
+			currentVersion = AA7D3D65288CAE14006AC4C2 /* Kundina.xcdatamodel */;
+			path = Kundina.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA7D3D4E288CAE12006AC4C2 /* Project object */;
+}
